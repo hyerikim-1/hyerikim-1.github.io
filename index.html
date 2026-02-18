@@ -2,17 +2,136 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<style>
+  /* Navigation */
+  .top-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 20px 0 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 60px;
+  }
+  .top-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .top-nav a:hover {
+    color: #0066cc;
+  }
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  /* Hero section */
+  .hero {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+  }
+  .hero-photo {
+    flex-shrink: 0;
+  }
+  .hero-photo img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  .hero-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #111;
+  }
+  .hero-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 12px;
+  }
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  /* Section buttons */
+  .section-btn {
+    display: inline-block;
+    background-color: #1a56db;
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px 0 12px;
+  }
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  /* Lists */
+  .bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  .bullet-list li {
+    font-size: 15px;
+    color: #444;
+    padding: 4px 0;
+  }
+  .bullet-list li::before {
+    content: "● ";
+    color: #333;
+  }
+
+  /* Contact */
+  .contact-section {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  .contact-section a {
+    color: #0066cc;
+  }
+</style>
+
+<!-- Top Navigation -->
+<nav class="top-nav">
+  <a href="/about">About</a>
+  <a href="/cv">CV</a>
+  <a href="/research">Research</a>
+  <a href="/publications">Publications</a>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero">
+  <div class="hero-photo">
+    <img src="https://raw.githubusercontent.com/hyerikim-1/hyerikim-1.github.io/master/images/profile-2.png" alt="Hyeri Kim">
+  </div>
+
+  <div class="hero-text">
+    <h1>Hello, I'm Hyeri Kim. Welcome to my website!</h1>
+
+    <p>
+      I am a Postdoctoral Researcher at the <strong>Advanced Radar Research Center (ARRC)</strong>,
+      School of Meteorology, University of Oklahoma.
+      My research focuses on <em>radar meteorology</em> and <em>radar signal processing</em>.
+    </p>
+
+    <a class="section-btn">Research Areas</a>
+    <ul class="bullet-list">
+      <li>Radar signal processing and system comparison</li>
+      <li>Velocity dealiasing algorithms</li>
+      <li>Weather observation and analysis</li>
+      <li>Physics-Informed Neural Networks for meteorology</li>
+    </ul>
+
+    <a class="section-btn">Research Methods</a>
+    <ul class="bullet-list">
+      <li>Deep learning (U-Net, PINNs)</li>
+      <li>Radar data processing (RVP10, Gamic, PX-1k)</li>
+      <li>Signal processing and statistical analysis</li>
+    </ul>
+
+    <div class="contact-section">
+      📧 <a href="mailto:hyeri.kim@ou.edu">hyeri.kim@ou.edu</a> &nbsp;|&nbsp;
+      Advanced Radar Research Center, University of Oklahoma
+    </div>
+  </div>
 </div>
