@@ -29,10 +29,8 @@ permalink: /about/
           Research Areas
         </div>
         <p style="margin-top: 0; line-height: 1.7; margin-bottom: 25px;">
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Electricity market regulation and design<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Liquefied natural gas (LNG) supply chain analysis<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Airline industry competition, merger, and pricing<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Gasoline retail station market dynamics
+          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Weather radar signal/data processing<br>
+          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Machine learning application<br>
 
 
          
@@ -41,10 +39,8 @@ permalink: /about/
         </div>
         <p style="margin-top: 0; line-height: 1.7; margin-bottom: 25px;">
         
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Structural Estimation: demand forecasting, oligopoly supply modeling<br> </span>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Machine Learning: large language models (LLM), topic modeling, random forest algorithms<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Causal Inference: difference-in-difference (including staggered designs), regression discontinuity, matching methods<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Spatial Econometrics and Geographical Analysis 
+          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Python<br> </span>
+          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Matlab <br>
 
         
 
@@ -52,7 +48,7 @@ permalink: /about/
           Contact Me
         </div>
         <p style="margin-top: 0; line-height: 1.6;">
-          Department of Economics, University of Oklahoma<br>
-          308 Cate Center Drive, Office 230, Norman, OK 73019<br>
-          <small>junyeol.ryu-1@ou.edu <i>(OU)</i>  |  ryujy1981@gmail.com <i>(personal)</i></small>
+          Advanced Radar Research Center, School of Meteorology, University of Oklahoma<br>
+          120 David L Boren Blvd, Norman, OK 73072<br>
+          <small>hyeri.kim@ou.edu <i>(OU)</i>  |  hrkim1111@gmail.com <i>(personal)</i></small>
         </p>
