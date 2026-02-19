@@ -3,13 +3,6 @@ layout: default
 ---
 
 <style>
-  /* Hero section */
-  .hero {
-    display: flex;
-    gap: 50px;
-    align-items: flex-start;
-    margin-bottom: 60px;
-  }
   .hero-text h1 {
     font-size: 26px;
     font-weight: 700;
@@ -22,8 +15,6 @@ layout: default
     color: #444;
     margin-bottom: 12px;
   }
-
-  /* Section buttons */
   .section-btn {
     display: inline-block;
     background-color: #1a56db;
@@ -35,8 +26,6 @@ layout: default
     text-decoration: none;
     margin: 20px 0 12px;
   }
-
-  /* Lists */
   .bullet-list {
     list-style: none;
     padding: 0;
@@ -51,8 +40,6 @@ layout: default
     content: "● ";
     color: #333;
   }
-
-  /* Contact */
   .contact-section {
     margin-top: 10px;
     font-size: 14px;
@@ -63,45 +50,29 @@ layout: default
   }
 </style>
 
-<!-- Top Navigation -->
-<nav class="top-nav">
-  <a href="/about">About</a>
-  <a href="/cv">CV</a>
-  <a href="/research">Research</a>
-  <a href="/publications">Publications</a>
-</nav>
+<div class="hero-text">
+  <h1>Hello, I'm Hyeri Kim. Welcome to my website!</h1>
+  <p>
+    I am a Postdoctoral Researcher at the <strong>Advanced Radar Research Center (ARRC)</strong>,
+    School of Meteorology, University of Oklahoma.
+    My research focuses on <em>radar meteorology</em> and <em>weather radar signal processing</em>.
+  </p>
 
-<!-- Hero Section -->
-<div class="hero">
-  <div class="hero-photo">
-    <img src="https://raw.githubusercontent.com/hyerikim-1/hyerikim-1.github.io/master/images/profile-2.png" alt="Hyeri Kim">
-  </div>
+  <a class="section-btn">Research Areas</a>
+  <ul class="bullet-list">
+    <li>Weather radar signal and data processing</li>
+    <li>Machine learning for meteorology</li>
+  </ul>
 
-  <div class="hero-text">
-    <h1>Hello, I'm Hyeri Kim. Welcome to my website!</h1>
+  <a class="section-btn">Research Methods</a>
+  <ul class="bullet-list">
+    <li>Deep learning (CNN, U-Net)</li>
+    <li>Python</li>
+    <li>Matlab</li>
+  </ul>
 
-    <p>
-      I am a Postdoctoral Researcher at the <strong>Advanced Radar Research Center (ARRC)</strong>,
-      School of Meteorology, University of Oklahoma.
-      My research focuses on <em>radar meteorology</em> and <em>weather radar signal processing</em>.
-    </p>
-
-    <a class="section-btn">Research Areas</a>
-    <ul class="bullet-list">
-      <li>Weather radar signal and data processing</li>
-      <li>Machine learning for meteorology</li>      
-    </ul>
-
-    <a class="section-btn">Research Methods</a>
-    <ul class="bullet-list">
-      <li>Deep learning (CNN, U-Net)</li>
-      <li>Python</li>
-      <li>Matlab</li>
-    </ul>
-
-    <div class="contact-section">
-      📧 <a href="mailto:hyeri.kim@ou.edu">hyeri.kim@ou.edu</a> &nbsp;|&nbsp;
-      Advanced Radar Research Center, School of Meteorology, University of Oklahoma
-    </div>
+  <div class="contact-section">
+    📧 <a href="mailto:hyeri.kim@ou.edu">hyeri.kim@ou.edu</a> &nbsp;|&nbsp;
+    Advanced Radar Research Center, School of Meteorology, University of Oklahoma
   </div>
 </div>
