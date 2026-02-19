@@ -7,15 +7,9 @@ permalink: /about/
 <div style="max-width: 1100px; margin: 0 auto;">
   <table border="0" width="100%" style="border-collapse: collapse; table-layout: fixed;">
     <tr>
-      <td align="left" valign="top" width="400" style="padding-top: 0; vertical-align: top;">
-        <img src="/png" width="380" style="border-radius: 8px; display: block; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
-        <p style="font-size: 0.95em; color: #555; margin-top: 12px; text-align: center; width: 380px;">
-          Pronounced as "Hae-ri"
-        </p>
-      </td>
 
       <td valign="top" style="padding-left: 30px; padding-top: 0; vertical-align: top;">
-        <h2 style="margin-top: 0; color: #333;">Hello, I'm Junyeol Ryu.   
+        <h2 style="margin-top: 0; color: #333;">Hello, I'm Hyeri Kim.   
         Welcome to my website!</h2>
         
         <p style="font-size: 1.1em; line-height: 1.6;">
