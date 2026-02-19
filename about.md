@@ -1,48 +1,80 @@
 ---
 layout: page
-title: 
+title: About
 permalink: /about/
 ---
 
-<div style="max-width: 1100px; margin: 0 auto;">
-  <table border="0" width="100%" style="border-collapse: collapse; table-layout: fixed;">
-    <tr>
+<style>
+  .hero-text h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #111;
+  }
+  .hero-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  .section-btn {
+    display: inline-block;
+    background-color: #1a56db;
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px 0 12px;
+  }
+  .bullet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+  }
+  .bullet-list li {
+    font-size: 15px;
+    color: #444;
+    padding: 4px 0;
+  }
+  .bullet-list li::before {
+    content: "● ";
+    color: #333;
+  }
+  .contact-section {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  .contact-section a {
+    color: #0066cc;
+  }
+</style>
 
-      <td valign="top" style="padding-left: 30px; padding-top: 0; vertical-align: top;">
-        <h2 style="margin-top: 0; color: #333;">Hello, I'm Hyeri Kim.   
-        Welcome to my website!</h2>
-        
-        <p style="font-size: 1.1em; line-height: 1.6;">
-          I’m a postdoctoral researcher in Advanced Radar Research Center, School of Meteorology at the University of Oklahoma, specializing in <span style="color: #0056b3; font-style: italic;">weather radar signal processing and data processing </span>, 
-          and <span style="color: #0056b3; font-style: italic;">machine learning application</span>.
-        </p>
-    </p>
-        
+<div class="hero-text">
+  <h1>Hello, I'm Hyeri Kim. Welcome to my website!</h1>
+  <p>
+    I am a Postdoctoral Researcher at the <strong>Advanced Radar Research Center (ARRC)</strong>,
+    School of Meteorology, University of Oklahoma.
+    My research focuses on <em>radar meteorology</em> and <em>weather radar signal processing</em>.
+  </p>
 
-        <div style="background-color: #0056b3; color: #ffffff; display: inline-block; padding: 5px 12px; font-weight: bold; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">
-          Research Areas
-        </div>
-        <p style="margin-top: 0; line-height: 1.7; margin-bottom: 25px;">
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Weather radar signal/data processing<br>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Machine learning application<br>
+  <a class="section-btn">Research Areas</a>
+  <ul class="bullet-list">
+    <li>Weather radar signal and data processing</li>
+    <li>Machine learning for meteorology</li>
+  </ul>
 
+  <a class="section-btn">Research Methods</a>
+  <ul class="bullet-list">
+    <li>Deep learning (CNN, U-Net)</li>
+    <li>Python</li>
+    <li>Matlab</li>
+  </ul>
 
-         
-        <div style="background-color: #0056b3; color: #ffffff; display: inline-block; padding: 5px 12px; font-weight: bold; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">
-          Research Method
-        </div>
-        <p style="margin-top: 0; line-height: 1.7; margin-bottom: 25px;">
-        
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Python<br> </span>
-          <span style="font-family: 'Times New Roman', serif; font-size: 1.3rem; line-height: 1.8;"> ● Matlab <br>
-
-        
-
-        <div style="background-color: #0056b3; color: #ffffff; display: inline-block; padding: 5px 12px; font-weight: bold; border-radius: 4px; margin-bottom: 12px; letter-spacing: 0.5px;">
-          Contact Me
-        </div>
-        <p style="margin-top: 0; line-height: 1.6;">
-          Advanced Radar Research Center, School of Meteorology, University of Oklahoma<br>
-          120 David L Boren Blvd, Norman, OK 73072<br>
-          <small>hyeri.kim@ou.edu <i>(OU)</i>  |  hrkim1111@gmail.com <i>(personal)</i></small>
-        </p>
+  <div class="contact-section">
+    📧 <a href="mailto:hyeri.kim@ou.edu">hyeri.kim@ou.edu</a> &nbsp;|&nbsp;
+    Advanced Radar Research Center, School of Meteorology, University of Oklahoma
+  </div>
+</div>
